@@ -25,7 +25,7 @@
         - psycopg2
   - name: git cloning
     git:
-      repo: https://github.com/raulikeda/tasks.git
+      repo: https://github.com/pedromtelho/tasks.git
       dest: /home/ubuntu/tasks
   - name: migration
     command: python3 manage.py migrate
