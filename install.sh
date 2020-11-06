@@ -6,3 +6,4 @@ export DJANGO_SUPERUSER_PASSWORD=cloud
 export DJANGO_SUPERUSER_USERNAME=cloudx
 export DJANGO_SUPERUSER_EMAIL=cloud@a.com
 python3 tasks/manage.py createsuperuser --noinput
+sudo reboot
